@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+body {
+    margin: 0;
+    background-color: #f8fff4;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 100px;
+  }
+  
+  .title h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .title .green {
+    color: #06A10B;
+  }
+  
+  .title .blue {
+    color: #3AB5CB;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .logout {
+    margin-left: 10px;
+    color: red;
+    text-decoration: none;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .sidebar {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu li:hover {
+    background-color: #00C851;
+    color: white;
+  }
+  
+  .main-content {
+   flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    margin-top: 0;
+  }
+  

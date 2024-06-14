@@ -1,0 +1,52 @@
+.info-1{
+    background-color: white;
+    height: 70px;
+    width: 750px;
+    padding: 25px;
+    display: flex;
+}
+.info-1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 6px 6px 6px 6px gray;
+    transition: .5s;
+}
+
+.info-2-1{
+    background-color: white;
+    width: 750px;
+    padding: 25px;
+}
+.info-2-1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 6px 6px 6px 6px gray;
+    transition: .5s;
+}
+
+.main-content-profile-1{
+    padding: 10px;
+}
+.main-content-profile-2{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 800px;
+    height: 100px;
+    background-color:white;
+    padding: 10px;
+}
+
+
+.profileimg{
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .info-1-2{
+    padding-left: 200px;
+  }
+
+  .info-1-1{
+    width: 500px;
+  }

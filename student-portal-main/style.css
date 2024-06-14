@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-container{
+    display: flex;
+    border: 2px solid #28A745 ;
+    box-shadow: 0 14px 28px rgba(40,167,69,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+            border-radius: 5px;
+}
+
+.img-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+
+.form-img{
+    max-width: 50%; 
+  height: auto; 
+}
+
+.login-container{
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.login-container h1 {
+    color: white;
+}
+
+.login-text{
+    color: white;
+}
+
+.forgotPass-text{
+    color: white;
+}
+
+
+.portal-header{
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: ease-in 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+	color: #28A745;
+    cursor: pointer;
+}
+
+.signUp-btn{
+    border: none;
+    border-radius: 20px;
+	background-color: white;
+	color: #28A745;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    transition: ease-in 0.3s;
+    margin-bottom: 20px;
+
+}
+
+.signUp-btn:hover{
+    background-color: #28A745;
+    color: white;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    background-color: #E8F0FE;
+    padding: 12px 15px;
+	margin: 8px 0;
+	width: 85%;
+}
+
+.portal-heading{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.green-text{
+    color: #06A10B;
+}
+
+.gub-title{
+    color: #3AB5CB;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3AB5CB;
+}

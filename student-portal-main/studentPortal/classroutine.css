@@ -1,0 +1,53 @@
+.info-1{
+    background-color: white;
+    height: 70px;
+    width: 750px;
+    padding: 25px;
+    display: flex;
+}
+.info-1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 6px 6px 6px 6px gray;
+    transition: .5s;
+}
+.main-content-classroutine-1{
+    padding: 10px;
+}
+.main-content-classroutine-2{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 800px;
+    height: 100px;
+    background-color:white;
+    padding: 10px;
+}
+
+
+.profileimg{
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .info-1-2{
+    padding-left: 200px;
+  }
+
+  .info-1-1{
+    width: 500px; 
+  }
+
+  th{
+    background-color: #06A10B;
+    color: white;
+  }
+
+  th,td,tr{
+    width: 150px;
+  }
+  table{
+    border-collapse: collapse;
+    border-color: black;
+    text-align: center;
+  }
